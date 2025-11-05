@@ -1,6 +1,50 @@
-h1 {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-h2 {
-    color: blue;
+ul,ol,li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #000000;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.logo img {
+    width: 100px;
+    height: 93.92px;
+}
+.manu ul {
+    display: flex;
+    gap: 10px;
+}
+.manu ul li a {
+    color: #FFFFFF;
+    padding: 18px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.batons {
+    display: flex;
+    gap: 20px;
+    
+}
+.batons img {
+    background-color: #000000;
+    border: none;
+    width: 38px;
+    height: 380x;
+    padding: 10px;
 }
